@@ -22,7 +22,16 @@
     <div class="container"> </div>
 
 
-
+    <script>
+        let count = 480;
+        const interval =
+        SetInterval(()=>{count--;
+        if(count===0 ){
+            clearInterval(interval);
+            alert ("Time is up");
+        }
+    },1000);
+    </script>
 
 
 
