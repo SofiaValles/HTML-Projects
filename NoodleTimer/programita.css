@@ -18,3 +18,10 @@ button{
 img {
     display: block; margin-left: auto; margin-right: auto; 
 }
+
+#timeDisplay {
+    font-size: 48px;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 20px 0;
+}

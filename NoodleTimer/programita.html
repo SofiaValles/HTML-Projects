@@ -14,8 +14,9 @@
     </div>
     </header>
     <p> (ﾉ ◕ ヮ ◕)ﾉ*:･ﾟ ✧</p>
-    <button> Start! </button>
+    <button id="startBtn" onClick = "myFunction()"> Start! </button>
 
+    <div id="timeDisplay">08:00</div>
     <img src="noodles.png" alt="noodles bowl illustration" width="300px">
 
 
@@ -23,14 +24,30 @@
 
 
     <script>
-        let count = 480;
-        const interval =
-        SetInterval(()=>{count--;
-        if(count===0 ){
-            clearInterval(interval);
-            alert ("Time is up");
-        }
-    },1000);
+        const myFunction = () => {
+            let count = 480;
+            const timeDisplay = document.getElementById('timeDisplay');
+            
+            const interval = setInterval(() => {
+                count--;
+
+                // Convertir segundos a MM:SS
+                const minutes = Math.floor(count / 60);
+                const seconds = count % 60;
+                const formattedTime = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+                // Mostrar en pantalla
+                timeDisplay.textContent = formattedTime;
+
+                if (count === 0) {
+                    clearInterval(interval);
+                    alert("Time is up");
+                }
+            }, 1000);
+
+
+
+    };
     </script>
 
 
