@@ -4,8 +4,23 @@
     padding: 20px;
     font-family: Arial, sans-serif;
     background-color: bisque;
+    display: flex;
 }
 
 h1{
     text-shadow: palevioletred 2px 1px 2px;
+    padding-left: 10%;
 }
+p{
+ padding-left: 10%;
+ font-size: medium;   
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 ;
+ }
