@@ -5,6 +5,7 @@
     font-family: Arial, sans-serif;
     background-color: bisque;
     display: flex;
+    margin-top: 2%;
 }
 
 h1{
@@ -17,10 +18,21 @@ p{
 }
 
 .avatar {
-    vertical-align: middle;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     display: block;
     margin: 0 ;
  }
+ 
+#NavbarSearchContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(197, 167, 191);
+    border: 10px solid palevioletred;
+    color: white;
+}
