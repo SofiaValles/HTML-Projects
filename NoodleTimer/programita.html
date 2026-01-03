@@ -10,18 +10,23 @@
 <body>
     <header>
         <div class = 'header-container'>
-        <h2>Noodles timer! ★</h2>
+        <h1>Noodles timer! ★</h1>
     </div>
     </header>
-    <p> (ﾉ ◕ ヮ ◕)ﾉ*:･ﾟ ✧</p>
-    <button id="startBtn" onClick = "myFunction()"> Start! </button>
+    <div class="container"> 
+        <p> (ﾉ ◕ ヮ ◕)ﾉ*:･ﾟ ✧</p>
 
-    <div id="timeDisplay">08:00</div>
-    <img src="noodles.png" alt="noodles bowl illustration" width="300px">
+        <div class="clock" >
+            <button id="startBtn" onClick = "myFunction()"> Start! </button>
+            <div id="timeDisplay">08:00</div>
+
+        </div>
+
+        <img src="noodles.png" alt="noodles bowl illustration" width="300px">
+        <div class="container"> </div>
 
 
-    <div class="container"> </div>
-
+    </div>
 
     <script>
         let interval = null; // Variable global para el intervalo

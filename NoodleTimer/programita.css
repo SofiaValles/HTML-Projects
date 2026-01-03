@@ -9,6 +9,7 @@ h1{
 }
 
 button{
+        font-size: 24px;
         text-align: center;
         background-color: aquamarine;
         border-color: rgb(112, 218, 182);
@@ -24,4 +25,15 @@ img {
     font-family: Arial;
     font-weight: bold;
     margin: 20px 0;
+}
+.header-container {
+    background-color: rgb(252, 237, 172);
+    border-radius: 5px;
+    
+}
+.container{
+    background-color:rgb(252, 237, 172);
+}
+.clock{
+    background-color:rgb(255, 251, 231)
 }
