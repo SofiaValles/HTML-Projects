@@ -24,12 +24,22 @@
 
 
     <script>
+        let interval = null; // Variable global para el intervalo
+        
         const myFunction = () => {
+            // Limpiar intervalo anterior si existe
+            if (interval) {
+                clearInterval(interval);
+            }
+            
             let count = 480;
             const timeDisplay = document.getElementById('timeDisplay');
             
-            const interval = setInterval(() => {
-                
+            // Resetear el display inmediatamente
+            timeDisplay.textContent = '08:00';
+            
+            interval = setInterval(() => {
+                count--;
 
                 // Convertir segundos a MM:SS
                 const minutes = Math.floor(count / 60);
@@ -39,18 +49,12 @@
                 // Mostrar en pantalla
                 timeDisplay.textContent = formattedTime;
 
-                count--;
-
                 if (count === 0) {
                     clearInterval(interval);
-
+                    interval = null;
                     alert("Time is up 🍜");
-
                 }
             }, 1000);
-
-
-
     };
     </script>
 <audio autoplay src="https://youtu.be/E8i32NXMxnc" type="audio/mpeg"></audio>
