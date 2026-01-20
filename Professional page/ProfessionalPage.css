@@ -36,18 +36,6 @@ button{
     border: 10px solid grassgreen;
     color: white;
 }
-/* .navbar navbar-expand-lg bg-body-tertiary {
-    background-color: (bg-body-tertiary);
-    me-auto, mb-2, mb-lg-0, me-2 {
-        margin-right: 2%;
-    } */
-}
-
-.navbar {
-    padding: 15px 20px !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #f8f9fa !important;
-}
 
 .navbar-brand {
     font-weight: bold;
