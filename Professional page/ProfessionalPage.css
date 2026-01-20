@@ -1,0 +1,38 @@
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    display: flex;
+    margin-top: 2%;
+}
+
+h1{
+    text-shadow: rgb(139, 172, 96) 2px 1px 2px;
+    padding-left: 10%;
+}
+p{
+ padding-left: 10%;
+ font-size: medium;   
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+ }
+ 
+#NavbarSearchContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(139, 172, 96);
+    border: 10px solid grassgreen;
+    color: white;
+}
