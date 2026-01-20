@@ -42,7 +42,7 @@ button{
         margin-right: 2%;
     } */
 }
-/* Navbar Styling */
+
 .navbar {
     padding: 15px 20px !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -53,7 +53,7 @@ button{
     font-weight: bold;
     font-size: 1.5rem;
     margin-right: 30px !important;
-    color: rgb(139, 172, 96) !important;
+    color: rgb(82, 105, 51) !important;
 }
 
 .navbar-nav {
@@ -85,4 +85,9 @@ button{
 
 .navbar-toggler {
     margin-left: auto;
+}
+
+.container-fluid {
+    background-color: beige;
+ 
 }
