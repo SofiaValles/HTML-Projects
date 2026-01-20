@@ -36,3 +36,45 @@ button{
     border: 10px solid grassgreen;
     color: white;
 }
+/* .navbar navbar-expand-lg bg-body-tertiary {
+    background-color: (bg-body-tertiary);
+    me-auto, mb-2, mb-lg-0, me-2 {
+        margin-right: 2%;
+    } */
+}
+/* Navbar Styling */
+.navbar {
+    padding: 15px 20px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 30px !important;
+    color: rgb(139, 172, 96) !important;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link {
+    padding: 10px 15px !important;
+    transition: color 0.3s ease;
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: rgb(139, 172, 96) !important;
+}
+
+.nav-link.active {
+    color: rgb(139, 172, 96) !important;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
