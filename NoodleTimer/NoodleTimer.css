@@ -35,5 +35,19 @@ img {
     background-color:rgb(252, 237, 172);
 }
 .clock{
-    background-color:rgb(255, 251, 231)
+    background-color:rgb(255, 251, 231);
+    margin-inline: 30%;
+    border-radius: 20px;
+}
+#emoji{
+    font-size: 24px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(255, 105, 180);
+}
+.container-finishing-text{
+    font-size: 24px;
+    font-family: "Arial", cursive, sans-serif;
+    color: rgb(247, 154, 15);
+    background-color: rgb(255, 251, 231);
+    padding-block: 10px;
 }

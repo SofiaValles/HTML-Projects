@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noodle Timer</title>
-    <link rel="stylesheet" href="programita.css">
+    <link rel="stylesheet" href="NoodleTimer.css">
 </head>
 
 <body>
     <header>
         <div class = 'header-container'>
-        <h1>Noodles timer! ★</h1>
+        <h1>★ Noodles timer! ★</h1>
     </div>
     </header>
     <div class="container"> 
-        <p> (ﾉ ◕ ヮ ◕)ﾉ*:･ﾟ ✧</p>
+        <p id="emoji">✧ ❤︎♡ *(ﾉ ◕ ヮ ◕)ﾉ*:･ﾟ ✧</p>
 
-        <div class="clock" >
-            <button id="startBtn" onClick = "myFunction()"> Start! </button>
+        <div class="clock" style="padding: 10px;">
+            <button id="startBtn" onClick = "myFunction()" style="margin-top: 10px;"> Start! </button>
             <div id="timeDisplay">08:00</div>
 
         </div>
 
         <img src="noodles.png" alt="noodles bowl illustration" width="300px">
-        <div class="container"> </div>
+        <div class="container-finishing-text" id="finishing text">
+            <p>Enjoy your delicious noodles! <br>(ﾉ ◕ ヮ ◕)ﾉ*:･ﾟ ✧</p>
+        </div>
+
 
 
     </div>
