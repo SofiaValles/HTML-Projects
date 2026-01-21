@@ -1,6 +1,11 @@
 body{
     background-image: url("fondo sakura.jpg");
 }
+body > nav.navbar {
+position: sticky;
+top: 0;
+z-index: 1020;
+}
 
 .container-about{
     max-width: 800px;
