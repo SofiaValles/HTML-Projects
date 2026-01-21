@@ -91,13 +91,14 @@ z-index: 1020;
     border-radius: 20px;
     font-family:  'Blue Winter', Times, serif;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 .container-search{
     max-width: 500px;
     margin: 0 auto;
     padding: 12px 20px;
     font-family: Arial, sans-serif;
-    background-color: rgba(225, 218, 230, 0.8);
+    background-color: rgba(218, 226, 230, 0.8);
     display: flex;
     margin-top: 2%;
     border-radius: 20px;
@@ -193,7 +194,6 @@ button{
 .container-fluid {
     background-color: rgb(247, 236, 223,0.9);
 }
-
 /* Obsessions */
 .obsessions-row{
     display: flex;
@@ -231,6 +231,9 @@ button{
     color: rgb(179, 129, 138);
     font-family:  'Honey Brown', Times, serif;
 }
+.containerObsessionsAndWidgets{
+    margin-bottom: 100px; 
+}
 
 /* Skz Images */
 .skzimg{
@@ -264,7 +267,7 @@ button{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(247, 236, 223, 0.9);
+    background-color: rgba(255, 255, 255, 0.85);
     padding:10px;
     margin: 20px;
     border-radius: 10px;
@@ -281,10 +284,27 @@ button{
 
 #hobbies, #animes, #videogames, #artists, #movies {
     font-weight: bold;
-    text-decoration: underline;
-    color:rgb(149, 122, 172);
-    font-family: 'Daydream DEMO', Times, serif;
-    font-size: 15px;
+    /* text-decoration: wavy underline; */
+    color:rgb(126, 117, 106) ;
+    font-family: 'Minecraft', Times, serif;
+    font-size: 22px;
+    background-color: rgba(255, 254, 255, 0.25);
+    border-radius: 10px;;
 }
 
 /* cool beige color rgba(255, 228, 196, 0.9) */
+/* cool cream color rgba(247, 236, 223, 0.9) */
+/* cool purpe color rgb(149, 122, 172) */
+/* cool lilac color rgba(225, 218, 230, 0.8) */
+
+
+/* <ul> */
+ul{
+    list-style-type: circle;
+
+}
+.container-hobbies, .container-anime, .container-videogames, .container-artists, .container-movies {
+    background-color: rgba(247, 223, 235, 0.5);
+    margin-bottom:20px;
+    border-radius: 10px;
+}
