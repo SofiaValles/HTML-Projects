@@ -6,6 +6,7 @@
     background-color: bisque;
     display: flex;
     margin-top: 2%;
+    border-radius: 20px;
 }
 
 h1{
@@ -14,6 +15,7 @@ h1{
 }
 p{
  padding-left: 10%;
+ padding-right: 10%;
  font-size: medium;   
 }
 
@@ -28,7 +30,7 @@ p{
 #NavbarSearchContainer {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 button{
@@ -61,12 +63,7 @@ button{
     transition: color 0.3s ease;
     color: #333 !important;
 }
-
-.nav-link:hover {
-    color: rgb(197, 167, 191) !important;
-}
-
-.nav-link.active {
+.nav-link.active,.nav-link:hover {
     color: rgb(197, 167, 191) !important;
     font-weight: bold;
 }
@@ -79,8 +76,53 @@ button{
     background-color: rgb(247, 236, 223);
  
 }
-#NavbarSearchContainer {
-    background-color: rgb(247, 236, 223);
+
+/* pretty pink color: rgb(247, 223, 235) */
+
+/* Obsessions */
+.Obsessions{
+    width: 400px;
+    background-color: rgb(247, 223, 235);
+    border-radius: 10px;
+    padding:10px;
+    margin: 20px;
+}
+#Obsessions-title{
+    font-weight: bold;
+    justify-content: center;
+    display:flex;
+}
+.currentObsessions{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+#obsessions-description{
+    width: 120%;
+    justify-content: center;
+    display:flex;
 }
 
-/* pretty pink color: rgb (247, 223, 235) */
+/* Favorites */
+.favorites{
+    width: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(247, 236, 223);
+    padding:10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#Favorites-title{
+    font-weight: bold;
+    justify-content: center;
+    display:flex;
+    width: 100%;
+}
+
+#hobbies, #animes, #videogames, #artists, #movies {
+    font-weight: bold;
+    text-decoration: underline;
+}
