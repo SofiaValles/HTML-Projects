@@ -47,8 +47,6 @@
     font-style: normal;
     font-display: swap;
 }
-
-
 @font-face {
     font-family: 'Minecraft';
     src: url('./fonts/Minecraft.ttf') format('truetype');
@@ -97,7 +95,8 @@ p{
  padding-left: 10%;
  padding-right: 10%;
  font-size: medium;   
- font-family:  'Times New Roman', Times, serif;
+ font-family:  'Please write me a song', Times, serif;
+ font-size: 20px;
 }
 
 .avatar {
@@ -112,7 +111,8 @@ p{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    font-family:  'Times New Roman', Times, serif;
+    font-family:  'Please write me a song', Times, serif;
+    font-size: 20px;
 }
 
 button{
@@ -134,7 +134,8 @@ button{
     gap: 20px;
     list-style: none;
     padding-top: 5px;
-    font-family:  'Times New Roman', Times, serif;
+    font-family:  'Minecraft', Times, serif;
+    font-size: 18px;
 }
 
 .nav-item {
@@ -190,7 +191,8 @@ button{
 
 /* Favorites */
 .favorites{
-    font-family:  'Times New Roman', Times, serif;
+    font-family:  'Minecraft', Times, serif;
+    font-size: 15px;
     width: auto;
     display:flex;
     flex-wrap: wrap;
@@ -206,12 +208,16 @@ button{
     justify-content: center;
     display:flex;
     width: 100%;
+    font-family: OdadingSignature, Times, serif;
+    font-size: 50px;
 }
 
 #hobbies, #animes, #videogames, #artists, #movies {
     font-weight: bold;
     text-decoration: underline;
-    color:rgb(149, 122, 172)
+    color:rgb(149, 122, 172);
+    font-family: 'Daydream DEMO', Times, serif;
+    font-size: 15px;
 }
 
 /* cool beige color rgba(255, 228, 196, 0.9) */
