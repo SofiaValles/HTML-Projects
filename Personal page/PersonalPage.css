@@ -1,10 +1,62 @@
 @font-face {
-  font-family: 'Blue Winter';
-  src: url('./fonts/BlueWinter.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Blue Winter';
+    src: url('./fonts/BlueWinter.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
+@font-face {
+    font-family: 'AngelicWar';
+    src: url('./fonts/AngelicWar.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OdadingSignature';
+    src: url('./fonts/OdadingSignature.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Please write me a song';
+    src: url('./fonts/Please write me a song.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Straykid';
+    src: url('./fonts/Straykid.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CHICKEN Pie';
+    src: url('./fonts/CHICKEN\ Pie.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Daydream DEMO';
+    src: url('./fonts/Daydream DEMO.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('./fonts/Minecraft.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 body{
     background-image: url("fondo sakura.jpg");
@@ -19,11 +71,12 @@ z-index: 1020;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family: '', sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     margin-top: 2%;
     border-radius: 20px;
+    font-family:  'Blue Winter', Times, serif;
 }
 .container-search{
     max-width: 500px;
@@ -115,12 +168,14 @@ button{
     border-radius: 10px;
     padding:10px;
     margin: 20px;
-    font-family:  'Times New Roman', Times, serif;
+    font-family:  Times, serif;
 }
 #Obsessions-title{
+    font-size: 40px;
     font-weight: bold;
     justify-content: center;
     display:flex;
+    font-family: 'OdadingSignature', Times, serif;
 }
 .currentObsessions{
     display:flex;
