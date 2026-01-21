@@ -205,7 +205,7 @@ button{
 .Obsessions{
     flex: 1 1 280px;
     max-width: 360px;
-    background-color: rgb(247, 223, 235, 0.8);
+    background-color: rgba(247, 223, 235, 0.82);
     border-radius: 10px;
     padding:10px;
     margin: 0;
@@ -260,17 +260,17 @@ button{
 
 /* Favorites */
 .favorites{
-
     font-family:  'Minecraft', Times, serif;
     font-size: 15px;
     width: auto;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 254, 255, 0.85);
     padding:10px;
     margin: 20px;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 #Favorites-title{
@@ -307,4 +307,7 @@ ul{
     background-color: rgba(247, 223, 235, 0.5);
     margin-bottom:20px;
     border-radius: 10px;
+}
+.btn btn-outline-success my-2 my-sm-0{
+
 }
