@@ -90,6 +90,7 @@ z-index: 1020;
     margin-top: 2%;
     border-radius: 20px;
     font-family:  'Blue Winter', Times, serif;
+    margin-bottom: 100px;
 }
 .container-search{
     max-width: 500px;
@@ -236,7 +237,7 @@ button{
 /* Skz Images */
 .skzimg{
     flex: 1 1 360px;
-    max-width: 560px;
+    max-width: 600px;
     background-color: rgb(247, 223, 235, 0.8);
     border-radius: 10px;
     padding:10px;
@@ -250,7 +251,7 @@ button{
     overflow-x: auto;
 }
 .skz1, .skz2, .skz3, .genshin, .nails{
-    width: 160px;
+    width: 170px;
     height: auto;
     margin: 6px;
     border-radius: 10px;
