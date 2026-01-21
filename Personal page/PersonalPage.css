@@ -1,9 +1,23 @@
-.container{
+body{
+    background-image: url("fondo sakura.jpg");
+}
+
+.container-about{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.9);
+    display: flex;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.container-search{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(225, 218, 230, 0.8);
     display: flex;
     margin-top: 2%;
     border-radius: 20px;
@@ -24,9 +38,9 @@ p{
     height: 200px;
     border-radius: 50%;
     display: block;
-    margin: 0 ;
  }
- 
+
+ /*search bar  */
 #NavbarSearchContainer {
     display: flex;
     justify-content: center;
@@ -39,11 +53,12 @@ button{
     color: white;
 }
 
+/* navbar */
 .navbar-brand {
-    font-weight: bold;
+    font-weight: italic;
     font-size: 1.5rem;
     margin-right: 30px !important;
-    color: rgb(141, 102, 133) !important;
+    color: rgb(165, 88, 150) !important;
 }
 
 .navbar-nav {
@@ -74,15 +89,12 @@ button{
 
 .container-fluid {
     background-color: rgb(247, 236, 223);
- 
 }
-
-/* pretty pink color: rgb(247, 223, 235) */
 
 /* Obsessions */
 .Obsessions{
     width: 400px;
-    background-color: rgb(247, 223, 235);
+    background-color: rgb(247, 223, 235, 0.8);
     border-radius: 10px;
     padding:10px;
     margin: 20px;
@@ -109,7 +121,7 @@ button{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(247, 236, 223);
+    background-color: rgb(247, 236, 223, 0.9);
     padding:10px;
     margin: 20px;
     border-radius: 10px;
