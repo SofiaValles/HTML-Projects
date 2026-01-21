@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
     font-family: 'Blue Winter';
     src: url('./fonts/BlueWinter.otf') format('opentype');
@@ -55,6 +56,20 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Heartless';
+    src: url('./fonts/Heartless.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Honey Brown';
+    src: url('./fonts/Honey Brown.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
 body{
     background-image: url("fondo sakura.jpg");
@@ -95,7 +110,7 @@ p{
  padding-left: 10%;
  padding-right: 10%;
  font-size: medium;   
- font-family:  'Please write me a song', Times, serif;
+ font-family:'Please write me a song', Times, serif;
  font-size: 20px;
 }
 
@@ -111,7 +126,7 @@ p{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    font-family:  'Please write me a song', Times, serif;
+    font-family:  'Honey Brown', Times, serif;
     font-size: 20px;
 }
 
@@ -169,7 +184,8 @@ button{
     border-radius: 10px;
     padding:10px;
     margin: 20px;
-    font-family:  Times, serif;
+    font-family:  'Honey Brown', Times, serif;
+    font-size: 20px;
 }
 #Obsessions-title{
     font-size: 40px;
@@ -187,6 +203,28 @@ button{
     width: 120%;
     justify-content: center;
     display:flex;
+    color: rgb(179, 129, 138);
+    font-family:  'Honey Brown', Times, serif;
+}
+
+/* Skz Images */
+.skzimg{
+    width: auto;
+    background-color: rgb(247, 223, 235, 0.8);
+    border-radius: 10px;
+    padding:10px;
+    margin: 20px;
+    font-family:  'Honey Brown', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skz1, .skz2, .skz3, .genshin, .nails{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 /* Favorites */
