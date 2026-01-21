@@ -92,6 +92,7 @@ z-index: 1020;
     font-family:  'Blue Winter', Times, serif;
     margin-bottom: 100px;
     margin-top: 100px;
+    border-style:outset;
 }
 .container-search{
     max-width: 500px;
@@ -192,7 +193,7 @@ button{
 }
 
 .container-fluid {
-    background-color: rgb(247, 236, 223,0.9);
+    background-color: rgba(247, 236, 223,0.9);
 }
 /* Obsessions */
 .obsessions-row{
@@ -211,6 +212,7 @@ button{
     margin: 0;
     font-family:  'Honey Brown', Times, serif;
     font-size: 20px;
+    border-style: dotted;
 }
 #Obsessions-title{
     font-size: 40px;
@@ -250,6 +252,7 @@ button{
     flex-wrap: nowrap;
     gap: 8px;
     overflow-x: auto;
+    border-style: dotted;
 }
 .skz1, .skz2, .skz3, .genshin, .nails{
     width: 170px;
@@ -271,6 +274,7 @@ button{
     margin: 20px;
     border-radius: 10px;
     margin-right: 10px;
+    border-style: dashed;
 }
 
 #Favorites-title{
@@ -315,7 +319,8 @@ ul{
     margin-bottom: 100px;
     margin-top: 100px;
     background-color: rgba(225, 218, 230, 0.9);
-    padding: 20px;;
+    padding: 20px;
+    border-style: dashed;
 }
 .hyunjinGifScene, .hyunjinGifGoodnight{
     width: 200px;
